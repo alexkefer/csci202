@@ -1,0 +1,51 @@
+* {
+    box-sizing:border-box;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(210, 220, 146, 0.444);
+}
+
+nav {
+    float:right;
+    line-height:150%;
+    margin-top:15px;
+    text-align:right;
+}
+
+element img {
+    cursor: pointer;
+}
+
+
+ul {
+    background-color:#d4d4d4;
+    border-radius:1em;
+}
+ul li {
+    color:#000000;
+    display:block;
+    list-style-type: none;
+    overflow:hidden;
+    animation:slide 1s forwards;
+}
+ul li element:hover {
+    cursor: pointer;
+    color:navy;
+    background-color:white;
+    border-radius:1em;
+}
+
+.dropdown {
+    position:relative;
+}
+
+.dropdown img {
+    position:relative;
+    width:40px;
+    background-color:white;
+    border-radius: 1em;  
+}
+
